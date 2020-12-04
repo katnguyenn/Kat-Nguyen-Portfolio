@@ -19,19 +19,6 @@ a:hover {
     color: #E2AC8A;
 }
 
-#github {
-    color: black;
-    margin-top: 10px;
-   
-}
-
-#linkedin {
-    margin-left: 10px;
-    color: black;
-    margin-top: 10px;
-    
-    
-}
 
 h1 {
     font-family: 'Open Sans Condensed', 'Helvetica Neue', sans-serif;
@@ -43,28 +30,48 @@ h1 {
 
 }
 
-.btn,
-#front-page-button {
+.btn {
     color: #f7f1e5;
     border-color: #f7f1e5;
     margin: auto;
     display: grid;
     justify-content: center;
-    margin-bottom: 400px;
+    
     
  
 }
 
 #front-page-button {
     width: 25%;
-    
+    color: #f7f1e5;
+    border-color: #f7f1e5;
+    margin: auto;
+    float: left;
+
 }
+
+
 
 #front-page-button:hover {
     color: black;
 }
 
+#about-page-button {
+    width: 15%;
+    color: #f7f1e5;
+    border-color: #f7f1e5;
+    margin-right: 10px;
+    margin-left: 350px;
+    float: left;
+}
+
+#about-page-button:hover {
+    color: black;
+}
+
+
 .about-title {
+    margin-top: 400px;
     margin-bottom: 50px;
 }
 
@@ -178,23 +185,18 @@ p {
 }
 
 
-.contact-icons {
-    display: flex;
-    
-}
-
 #email {
-    margin-left: 400px;
+    margin-left: 490px;
     color: black;
   
 }
 
 
-#phone {
+#phone,
+#github,
+#linkedin {
     margin-left: 10px;
-    color: black;
-   
-    
+    color: black;  
 }
 
 
@@ -214,6 +216,11 @@ h1 {
    
 #front-page-button {
     width: 60%;
+}
+
+#about-page-button {
+    width: auto;
+    margin-left: 20px;
 }
    
    
@@ -242,7 +249,7 @@ h1 {
 }
    
 #email {
-    margin-left: 70px;
+    margin-left: 110px;
 }
    
 }
@@ -252,18 +259,16 @@ h1 {
 and (max-width: 1024px) {
 
     
-#github,
-#linkedin {
-    display: block;
-    overflow: hidden;
-}
-
  #front-page-button {
      width: 40%;
 }
 
+#about-page-button {
+    margin-left: 150px;
+}
+
 .about-title {
-    margin-top: -160px;
+    margin-top: 400px;
 }
 
 img {
@@ -281,8 +286,6 @@ img {
    
 }
 
-
-
 #btn-project1 {
     color: #f7f1e5;
     border-color: #f7f1e5;
@@ -291,6 +294,7 @@ img {
     margin-left: 50px;
   
 }
+
 #btn-website1 {
     color: #f7f1e5;
     border-color: #f7f1e5;
@@ -300,21 +304,14 @@ img {
   
 }
 
-
-
-.contact-icons {
-    display: flex;
-    align-items: flex-end;
-}
   
 #email {
-    margin-left: 250px;
+    margin-left: 280px;
 }
 
 #phone {
     margin-right: 10px;
 }
-
 
 
 }
@@ -331,8 +328,5 @@ and (max-width: 1600px) {
     margin-left: 150px;
 }
 
-.contact-icons {
-    margin-left: 100px;
-}
 
 }
