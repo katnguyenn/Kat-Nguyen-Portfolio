@@ -207,28 +207,28 @@ h6 {
 
 @media screen and (max-width: 375px) {
 
-    h1 {
-       margin-left: 50px;
-   }
+h1 {
+    margin-left: 50px;
+}
    
-   #front-page-button {
-       width: 60%;
-   }
+#front-page-button {
+    width: 60%;
+}
    
    
-   #btn-resume {
-       margin-left: 40px;
-   }
+#btn-resume {
+    margin-left: 40px;
+}
    
-   #btn-project1 {
-       margin-left: 45px;
-   }
+#btn-project1 {
+    margin-left: 45px;
+}
    
-   #email {
-       margin-left: 70px;
-   }
+#email {
+    margin-left: 70px;
+}
    
-   }
+}
 
 
 @media screen and (max-width: 600px) {
