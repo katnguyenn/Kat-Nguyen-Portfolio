@@ -205,5 +205,77 @@ h6 {
 }
 
 
+@media screen and (max-width: 600px) {
 
+    
+#github,
+#linkedin {
+    display: block;
+    overflow: hidden;
+}
+
+ #front-page-button {
+     width: 40%;
+}
+
+ .about-title {
+    margin-top: -160px;
+}
+
+img {
+     margin-bottom: 10px;
+        
+}
+
+#btn-resume {
+    margin-left: 110px;
+
+}
+
+.projects-title {
+    margin-top: -150px;
+    margin-bottom: -100px;
+}
+
+
+
+#btn-project1 {
+    color: #f7f1e5;
+    border-color: #f7f1e5;
+    margin: auto;
+    float: left;
+    margin-left: 100px;
+  
+}
+#btn-website1 {
+    color: #f7f1e5;
+    border-color: #f7f1e5;
+    margin: auto;
+    float: left;
+    margin-left: 10px;
+  
+}
+
+#planner-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.contact-icons {
+    display: flex;
+    align-items: flex-end;
+}
+  
+#email {
+    margin-left: 150px;
+}
+
+#phone {
+    margin-right: 10px;
+}
+
+
+
+}
 
