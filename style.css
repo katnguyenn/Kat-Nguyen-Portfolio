@@ -1,19 +1,35 @@
-.leftside, .rightside {
-    height: 50vh;
-    width: 100%;
-}
-
-.leftside {
+body {
     background-color: #E2AC8A;
+    overflow-x: hidden;
+   
+   
 }
 
-.rightside {
+.navbar {
     background-color: #f7f1e5;
 }
 
-
-@media screen and (min-width: 768px) {
-    .leftside, .rightside {
-        height: 100vh;
-    }
+.nav-link {
+    color: black;
+    font-family: 'Open Sans Condensed', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
 }
+
+a:hover {
+    color: #E2AC8A;
+}
+
+#github {
+    color: black;
+    margin-top: 10px;
+   
+}
+
+#linkedin {
+    margin-left: 10px;
+    color: black;
+    margin-top: 10px;
+    
+    
+}
+
