@@ -33,3 +33,34 @@ a:hover {
     
 }
 
+h1 {
+    font-family: 'Open Sans Condensed', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 300px;
+
+}
+
+.btn,
+#front-page-button {
+    color: #f7f1e5;
+    border-color: #f7f1e5;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 400px;
+    
+ 
+}
+
+#front-page-button {
+    width: 20%;
+    
+}
+
+#front-page-button:hover {
+    color: black;
+}
+
