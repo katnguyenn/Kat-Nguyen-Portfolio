@@ -71,7 +71,7 @@ h1 {
 
 
 .about-title {
-    margin-top: 400px;
+    margin-top: 450px;
     margin-bottom: 50px;
 }
 
@@ -258,6 +258,9 @@ h1 {
 @media screen and (min-width: 768px)
 and (max-width: 1024px) {
 
+.job-title {
+    margin-top: 50px;
+}
     
  #front-page-button {
      width: 40%;
@@ -302,6 +305,11 @@ img {
     float: left;
     margin-left: 10px;
   
+}
+
+.dp,
+.pg {
+    margin-top: 100px;
 }
 
   
