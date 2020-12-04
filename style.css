@@ -178,3 +178,32 @@ p {
 }
 
 
+.contact-icons {
+    display: flex;
+    
+}
+
+#email {
+    margin-left: 600px;
+    color: black;
+  
+}
+
+
+#phone {
+    margin-left: 10px;
+    color: black;
+   
+    
+}
+
+
+h6 {
+    font-family: 'Open Sans Condensed', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
